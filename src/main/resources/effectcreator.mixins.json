@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.voavo.effectcreator.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "FogMixin",
+    "EffectParticlesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
